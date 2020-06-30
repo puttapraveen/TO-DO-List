@@ -1,0 +1,68 @@
+body{
+    padding: 10px 10px 10px;
+    background-image: url(person-wearing-red-hoodie-1097456.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.head {
+    font-size: 30px;
+    font-family: 'Hind', sans-serif;
+    color: #fff;
+}
+.stylew{
+    color: lime;
+}
+.search{
+    display: flex;
+}
+.search input{
+    height: 10px;
+    width: 230px;
+    border: none;
+    border-radius: 25px;
+    padding: 20px 20px 20px;
+}
+.search button{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 160px;
+    
+}
+.addbutton{
+    cursor: pointer;
+    color: #fff;
+    background: lime;
+    height: 40px;
+    width: 40px;
+}
+.container{
+    margin-top: 50px;
+    border-radius: 25px;
+    height: 300px;
+    width: 300px;
+    background-color: limegreen;
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+   }
+.container ul{
+    justify-content: start;
+
+}
+
+ul button-del{
+    margin-left: auto;
+}
+ul li{
+    font-family: 'Yellowtail', cursive;
+    padding: 10px 10px 20px;
+    font-size: 20px;
+
+}
