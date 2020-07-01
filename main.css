@@ -70,3 +70,58 @@ ul li{
 .delet{
     margin-top: 30px;
 }
+.social-menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:white;
+    margin-top: 30px;
+}
+.social-menu ul{
+
+    display: flex;
+    left: 38%;
+    right: 30%;
+    padding: 0;
+    margin-top: 20px;
+    transform: translate(-50% -50%);
+
+}
+.social-menu ul li{
+    list-style: none;
+    margin: 0 5px;
+
+}
+
+.social-menu ul li .fa{
+    font-size: 30px;
+    line-height: 50px;
+    transition: .6s;
+    color: #000;
+}
+.social-menu ul li .fa:hover{
+    color: #fff;
+
+
+}
+.social-menu ul li a{
+position: relative;
+display: block;
+width: 50px;
+height:50px;
+border-radius: 50px;
+background-color: white;
+text-align: center;
+transition: .6s;
+box-shadow: 0 5px 4px rgba(0,0,0,0.5);
+}
+
+.social-menu ul li a:hover{
+    transform:translate(0,-10px);
+}
+.copy{
+    color: white;
+    margin-top: 0px;
+}
