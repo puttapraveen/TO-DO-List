@@ -18,3 +18,14 @@ a.appendChild(nw);
 console.log(a);
 document.getElementById("text").value="";
 }}
+
+function items(){
+    var lis=document.querySelectorAll('input[name="del"]');
+    const a=document.querySelector("ul");
+    for (const c of lis){
+        if(c.checked){
+            var p=c['id'];
+            document.getElementById(p).remove();           
+        }
+    }
+}
