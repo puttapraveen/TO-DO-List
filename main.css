@@ -71,6 +71,7 @@ ul li{
     margin-top: 30px;
 }
 .social-menu{
+    font-family: 'Hind', sans-serif;
     display: flex;
     align-items: center;
     flex-direction: column;
