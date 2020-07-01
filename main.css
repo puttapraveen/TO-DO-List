@@ -64,5 +64,6 @@ ul li{
     font-family: 'Yellowtail', cursive;
     padding: 10px 10px 20px;
     font-size: 20px;
+    list-style: none;
 
 }
